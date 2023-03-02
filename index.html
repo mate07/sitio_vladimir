@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+     <!-- Bootstrap CSS -->
+     <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+          crossorigin="anonymous"
+     />
+
+     <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+     />
+
+     <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+          crossorigin="anonymous"
+     ></script>
+
+
+     <title>Pagina Principal</title>
+</head>
+<body>
+     <!-- navbar -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+          <div class="container">
+               <a href="/" class="navbar-brand">Bootstrap</a>
+
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                         <li class="nav-item">
+                              <a href="#inicio" class="nav-link active" aria-current="page">
+                                   Inicio
+                              </a>
+                         </li>
+                         <li class="nav-item">
+                              <a href="#servicios" class="nav-link"> Servicios </a>
+                         </li>
+                         <li class="nav-item">
+                              <a href="#comentarios" class="nav-link"> Comentarios </a>
+                         </li>
+                         <li class="nav-item">
+                              <a href="#suscribete" class="nav-link"> Suscríbete </a>
+                         </li>
+                    </ul>
+               </div>
+          </div>
+     </nav>
+     <!-- navbar -->
+
+     <!-- Carrusel -->
+     <section>
+     <div id="carousel1" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="imagenes/slider-1.jpg" class="d-block w-100" alt="slider1">
+            </div>
+            <div class="carousel-item">
+              <img src="imagenes/slider-2.jpg" class="d-block w-100" alt="slider2">
+            </div>
+            <div class="carousel-item">
+              <img src="imagenes/slider-3.jpg" class="d-block w-100" alt="slider3">
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Atras</span>
+          </button>
+
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+     </div>
+     </section>
+     <!-- Carrusel -->
+
+     <hr>
+
+     <!-- Contenedor -->
+     <section>
+     <div class="alert alert-success text-center" role="alert">
+          <h1>Listado de Series o Películas Favoritas</h1>
+          <h5>By Vladimir Mate</h5>
+     </div>
+     </section>
+     <!-- Contenedor -->
+
+     <!-- Aquí podemos agregar comentarios -->
+     <!-- Uso de la etiqueta A -->
+
+     <!-- Card -->
+     <section class="col-12 col-md-12 mb-5">
+          <div class="container">
+               <div class="card-group">
+
+                    <div class="card">
+                      <img src="imagenes/image1.jpg" class="card-img-top" alt="portada 1">
+                      <div class="card-body">
+                        <h5 class="card-title">1. Lo Qué el Viento se Llevo</h5>
+                        <p class="card-text">Novela</p>
+                        <p class="card-text">Pelicula basada en el libro</p>
+                        <p class="card-text">Estreno: 1939</p>
+                      </div>
+                      <div class="card-footer text-center">
+                        <a href="pagina1.html" class="link-success"> 
+                         Ir al Enlace
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <img src="imagenes/image2.webp" class="card-img-top" alt="portada 2">
+                      <div class="card-body">
+                         <h5 class="card-title">2. Terminator 2: Día del Juicio Final</h5>
+                         <p class="card-text">Acción</p>
+                         <p class="card-text">Pelicula de ciencia ficción</p>
+                         <p class="card-text">Estreno: 1989</p>
+                      </div>
+                      <div class="card-footer text-center">
+                         <a href="pagina2.html" class="link-success">
+                              Ir al Enlace
+                         </a>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <img src="imagenes/image3.jpg" class="card-img-top" alt="portada 3">
+                      <div class="card-body">
+                         <h5 class="card-title">3. Kimi no Na wa</h5>
+                         <p class="card-text">Anime</p>
+                         <p class="card-text">Pelicula Anime Romantica</p>
+                         <p class="card-text">Estreno: 2010</p>
+                      </div>
+                      <div class="card-footer text-center">
+                         <a href="pagina3.html" class="link-success">
+                              Ir al Enlace
+                         </a>
+                      </div>
+                    </div>
+                    
+                    <div class="card">
+                         <img src="imagenes/slider-1.jpg" class="card-img-top" alt="portada 4">
+                         <div class="card-body">
+                              <h5 class="card-title">4. Tablas en HTML</h5>
+                              <p class="card-text">HTML</p>
+                              <p class="card-text">Uso de la Etiqueta table</p>
+                              <p class="card-text">Clase Programación III</p>
+                         </div>
+                         <div class="card-footer text-center">
+                              <a href="pagina4.html" class="link-success">
+                                   Ir al Enlace
+                              </a>
+                         </div>
+                       </div>
+               </div>
+          </div>
+     </section>
+     <!-- Card -->
+
+     <hr>
+
+     <section>
+          <div class="text-center alert-danger">
+               <h5>Ir a Literatura Favorita</h5>
+          </div>
+     </section>
+
+     <section>
+          <div class="container">
+               <ul class="nav nav-pills nav-fill">
+                    <li class="nav-item">
+                      <a class="nav-link active bg-info" aria-current="page" href="#ancla1">
+                         Lo Qué el Viento se Llevo
+                    </a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link active bg-primary" href="#ancla2">En Llamas</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link active bg-success" href="#ancla3">La Copa Dorada</a>
+                    </li>
+               </ul>
+          </div>
+     </section>
+
+     <!-- Aqui va un etiqueta HR -->
+     <hr>
+
+     <section>
+          <div class="text-center alert-warning">
+               <h1>Literatura Favorita</h1>
+               <h5>By Vladimir Mate</h5>
+          </div>
+     </section>
+
+     <hr>
+
+     <a name="ancla1">
+          <p class="text-center h1">Lo Qué el Viento se Llevo</p>
+     </a>
+     <p class="text-center">
+          Scarlett O'Hara vive en Tara, una gran plantación 
+          del estado sure#o de Georgia, y esté enamorada de 
+          Ashley Wilkes, que en breve contraer matrimonio 
+          con Melanie Hamilton. Estamos en 1861, en los 
+          prolegómenos de la guerra de Secesión, y todos 
+          los jóvenes sureños muestran entusiasmo por 
+          entrar en combate, excepto el atractivo aventurero 
+          Rhett Butler.
+          <br>
+          A Butler le gusta Scarlett, pero esta sigue 
+          enamorada de Ashley, que acaba de hacer público 
+          su compromiso con Melanie. Despechada, Scarlett 
+          acepta la propuesta de matrimonio de Charles, el 
+          hermano de Melanie, al que desprecia.
+          <br>
+          Años más tardes, y como consecuencia del final 
+          de la guerra, ya viuda, Scarlett debe afrontar 
+          situaciones nuevas como el hambre, el dolor y la 
+          pérdida e instalarse en Atlanta, donde Melanie 
+          espera noticias y de Ashley y Butler aparece de 
+          nuevo.
+     </p>
+
+     <hr>
+
+     <a name="ancla2">
+          <p class="text-center h1">En Llamas</p>
+     </a>
+     <p class="text-bg-primary p-3 text-center">
+          Joan Eagan es una agente de policía que perdió a 
+          su novio y su fe en Dios entre los escombros del 
+          desastre de las Torres Gemelas. Con el corazón roto,
+          Joan aceptó un puesto en el departamento de policía 
+          de una pequeña localidad de California y se compró 
+          una casa modesta al pie de un cañón aislado. 
+          paul Lutz, un exitoso guionista de Hollywood 
+          casado y padre de dos niñosm recala en esa pequeña 
+          localidad con la intención de buscar localizaciones 
+          para un rodaje. Un día de otoño de 2003, la bengala 
+          de un cazador origina uno de los peores incendios 
+          forestales de California. Paul, que ese día estaba 
+          buscando en el bosque localizaciones, se encuentra 
+          rodeado por las llamas y se enfrenta a una muerte 
+          segura. pero un hombre extraño aparece de repente y,
+          antes de esfumarse misteriosamente tras un muro de 
+          fuego, salva la vida de Paul, conduciéndole a la 
+          casa de Joan
+     </p>
+
+     <hr>
+
+     <a name="ancla3">
+          <p class="text-center h1">La Copa Dorada</p>
+     </a>
+     <p class="text-center">
+          Adam Verver, un rico viudo norteamericano retirado 
+          de los negocios, recorre Europa con su hija Maggie 
+          comprando y coleccionando antigüedades. Cuando 
+          Maggie conoce y se enamora de Americo, un príncipe 
+          romano rico en apostura y linaje, mas no en fortuna,
+          su padre se lo “compra” como le ha comprado todo 
+          cuanto le ha gustado en la vida.
+     </p>
+
+     <hr>
+
+     <footer class="container-fluid py-5 text-center bg-dark text-white">
+          <a href="mailto:vladimir.mate@gmail.com?subject=Hola Mundo" class="link-light">
+               vladimir.mate@gmail.com
+          </a>
+
+          <br>
+
+          <a href="documentos/documento1.pdf" class="link-light">
+               Investigación de Microlearning, haz clic para descargar
+          </a>
+
+          <br>
+          <a href="archivos/archivo1.zip" class="link-light">
+               Haz clic para descargar
+          </a>
+     </footer>
+</body>
+</html>
